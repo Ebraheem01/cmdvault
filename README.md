@@ -109,4 +109,4 @@ Commands are stored in `commands.json` in the project directory. You can back up
 
 ## License
 
-ISC
+MIT
