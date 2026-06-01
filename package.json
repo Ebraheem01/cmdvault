@@ -1,0 +1,30 @@
+{
+  "name": "cmdvault",
+  "version": "1.0.0",
+  "description": "A CLI tool to store, search, and manage your favorite terminal commands",
+  "main": "index.js",
+  "bin": {
+    "cmdvault": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "terminal",
+    "commands",
+    "vault"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "clipboardy": "^2.3.0",
+    "boxen": "^5.1.2",
+    "ora": "^5.4.1",
+    "table": "^6.8.1"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "commands": [
+    {
+      "id": "mhbpbbbk1s1ou09cdyl",
+      "command": "git status",
+      "description": "Check Git repository status",
+      "tags": [
+        "git",
+        "status"
+      ],
+      "createdAt": "2025-10-29T07:55:56.050Z"
+    },
+    {
+      "id": "mhbpbney47b7phb3ofy",
+      "command": "docker ps -a",
+      "description": "List all Docker containers",
+      "tags": [
+        "docker",
+        "containers"
+      ],
+      "createdAt": "2025-10-29T07:56:11.723Z"
+    },
+    {
+      "id": "mhbpbw9frf2s53msoqf",
+      "command": "npm install -g package",
+      "description": "Install npm package globally",
+      "tags": [
+        "npm",
+        "install",
+        "node"
+      ],
+      "createdAt": "2025-10-29T07:56:23.188Z"
+    },
+    {
+      "id": "mhbpmmerxzxyfn7i6pm",
+      "command": "npx wscat -c \"wss://w1t306hkm2.execute-api.eu-central-1.amazonaws.com/dev?action=authGuest&guest=true&identityId=eu-central-1:1911f364-4f60-ca18-b667-ef34fbf84579&agentId=agent-49c12ed4-1e7b-43e9-a5bc-a8a201a19263\"",
+      "description": "nexa socket connection",
+      "tags": [
+        "nexa",
+        "socket"
+      ],
+      "createdAt": "2025-10-29T08:04:43.638Z"
+    },
+    {
+      "id": "mhbq1avzuftcab350ud",
+      "command": "git config",
+      "description": "git config",
+      "tags": [
+        "git",
+        "config",
+        "user.name",
+        "user.email"
+      ],
+      "createdAt": "2025-10-29T08:16:08.545Z"
+    },
+    {
+      "id": "mhbq29nv4ambc4sv88k",
+      "command": "git remote set-url origin <>",
+      "description": "git set or add repo origin",
+      "tags": [
+        "git remote",
+        "set",
+        "add"
+      ],
+      "createdAt": "2025-10-29T08:16:53.611Z"
+    },
+    {
+      "id": "mhbt1epg1l9t28gf85x",
+      "command": "npx serverless deploy function --function",
+      "description": "serverless deploy function",
+      "tags": [
+        "sls",
+        "serverless",
+        "deploy",
+        "function"
+      ],
+      "createdAt": "2025-10-29T09:40:12.341Z"
+    },
+    {
+      "id": "mhlp32j34nlhonsp16o",
+      "command": "npx wscat -c \"wss://d15u5ceb9jzjx8.cloudfront.net?action=authGuest&guest=true&identityId=eu-central-1:1911f364-4f60-ca18-b667-ef34fbf84579&agentId=agent-49c12ed4-1e7b-43e9-a5bc-a8a201a19263\"",
+      "description": "nexa new cloudfront",
+      "tags": [
+        "cloudfront",
+        "nexa"
+      ],
+      "createdAt": "2025-11-05T07:47:13.168Z"
+    },
+    {
+      "id": "mi2r2xhpzbdcl9ypv7m",
+      "command": "supabase functions deploy <function_name>",
+      "description": "supabase deploy edge function",
+      "tags": [
+        "supabase",
+        "deplou",
+        "edge"
+      ],
+      "createdAt": "2025-11-17T06:15:10.861Z"
+    }
+  ]
+}
